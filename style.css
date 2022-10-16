@@ -1,52 +1,44 @@
-@font-face {
-    font-family: Starjedi;
-    src: url(Starjedi.ttf);
+body {
+    background-color: antiquewhite;
 }
-.imperio {
-    background-color: red;
-    width: 800px;
-}
-#darthvader {
-    font-size: 50px;
-}
-.apoyo {
-    font-size: 25px;
-    text-align: center;
-}
-.rebeldes {
-    background-color: rgb(0, 140, 255);
-    width: 800px;
-}
-#luke {
-    font-size: 50px;
-}
-.naves {
-    text-transform: uppercase;
-    text-size-adjust: 25px;
-    color: white;
-}
-* {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .soldados {
-    border: 5px;
-    border-style: outset;
-    border-color: red;
-  }
-  body {
-    background-color: black;
-    background-image: url("https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_960_720.png");
-    background-size: auto;
-}
-.blanco {
-    color: white;
-    text-size-adjust: 50px;
-    text-align: center;
+
+
+
+#pan1 {
+    background-color: #deb887;
+    width: 600px;
+    height: 100px;
+    border: #deb887;
+    border-radius: 300px 300px 50px 50px;
+    background: linear-gradient(to bottom, #deb887 80%, #b4956d 20%
+    );
+
 }
 
 * {
-    font-family: starjedi;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#salchicha {
+    background-color: #a52a2a;
+    width: 640px;
+    height: 80px;
+    border: #deb887;
+    border-radius: 50px;
+    background: linear-gradient(#a52a2a
+    , #b40404
+
+    );
+}
+
+
+#pan2 {
+    background-color: #deb887;
+    width: 600px;
+    height: 100px;
+    border: #deb887;
+    border-radius: 50px 50px 300px 300px;
+    background: linear-gradient(to top, #deb887 80%, #b4956d 20%
+    );
 }

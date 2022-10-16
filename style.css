@@ -1,0 +1,47 @@
+
+body {
+    background-image: url("fondo.jpg");
+}
+
+.h2_1 {
+    background-color: #6f0ea3;
+}
+
+#game {
+    background-color: #2147b9;
+}
+* {
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    font-size: 22px;
+    border: 10px;
+}
+
+.time-container {
+    background-color: #6f0ea3;
+}
+
+.score-container {
+    background-color: #6f0ea3;
+}
+
+.container {
+    background-image: url("div.jpg");
+    background-size: 500px;
+}
+
+.container{
+
+    max-width: 700px; margin: auto;
+    
+    width: 100%;
+    
+    text-align: center;
+    
+    padding: 23;
+    
+    background-image: url("div.jpg");
+    background-size: 700px;
+    height: 500px;
+    
+ border-style:solid outset }
